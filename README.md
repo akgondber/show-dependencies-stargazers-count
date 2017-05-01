@@ -2,7 +2,7 @@
 
 > A command-line utility for showing dependencies stargazers count
 
-![depstaco](https://github.com/akgondber/show-dependensies-stargazers-count/blob/master/images/logo.png)
+![depstaco](https://github.com/akgondber/show-dependencies-stargazers-count/blob/master/images/logo.png)
 
 
 ## Install
@@ -51,7 +51,7 @@ An example for showing dependencies stargazers count for [ava](https://github.co
 $ depstaco --dir node_modules/ava --keys devDependencies
 ```
 
-![table_mode](https://github.com/akgondber/show-dependensies-stargazers-count/blob/master/images/table_mode.png)
+![table_mode](https://github.com/akgondber/show-dependencies-stargazers-count/blob/master/images/table_mode.png)
 
 
 This example for [express](https://github.com/expressjs/express) with bar mode and sort direction to descending
@@ -60,7 +60,7 @@ This example for [express](https://github.com/expressjs/express) with bar mode a
 $ depstaco --dir node_modules/express --sort desc --mode bar
 ```
 
-![bar_mode](https://github.com/akgondber/show-dependensies-stargazers-count/blob/master/images/bar_mode_desc.png)
+![bar_mode](https://github.com/akgondber/show-dependencies-stargazers-count/blob/master/images/bar_mode_desc.png)
 
 ## API
 
