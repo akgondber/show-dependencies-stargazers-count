@@ -1,0 +1,56 @@
+{
+  "name": "show-dependencies-stargazers-count",
+  "version": "1.0.0",
+  "description": "A command-line utility for showing dependencies stargazers count",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "bin": {
+    "show-dependencies-stargazers-count": "cli.js",
+    "depstaco": "cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akgondber/show-dependencies-stargazers-count.git"
+  },
+  "files": [
+    "licence",
+    "README.md",
+    "index.js",
+    "cli.js",
+    "lib"
+  ],
+  "keywords": [
+    "display",
+    "table",
+    "barchart",
+    "dependencies",
+    "package",
+    "javascript",
+    "terminal",
+    "npm",
+    "stargazers",
+    "count"
+  ],
+  "author": "Rushan Alyautdinov <akgondber@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akgondber/show-dependencies-stargazers-count/issues"
+  },
+  "homepage": "https://github.com/akgondber/show-dependencies-stargazers-count#readme",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.7.5",
+    "get-repo-stargazers-count": "^1.0.0",
+    "minimist": "^1.2.0",
+    "ramda": "^0.23.0"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "xo": "^0.18.1"
+  },
+  "xo": {
+    "space": true
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "my-app description",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akgondber/my-app.git"
+  },
+  "keywords": [
+    "awesome",
+    "application"
+  ],
+  "author": "Rushan Alyautdinov <akgondber@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akgondber/display-dependencies-stars/issues"
+  },
+  "homepage": "https://github.com/akgondber/display-dependencies-stars#readme",
+  "dependencies": {
+    "async": "^2.3.0",
+    "got": "^6.7.1",
+    "request": "^2.81.0",
+    "ora": "^1.2.0"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "xo": "^0.18.1"
+  },
+  "xo": {
+    "space": true
+  }
+}
